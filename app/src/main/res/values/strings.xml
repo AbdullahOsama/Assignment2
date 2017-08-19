@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="add_item">Add Item Activity</string>
+    <string name="add_cheese">Add Cheese</string>
+    <string name="add_rice">Add Rice</string>
+    <string name="add_apples">Add Apples</string>
+    <string name="add_steak">Add Steak</string>
+    <string name="add_item_activity">Add Item</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gamer.assignment2.ItemActivity">
+
+    <Button
+        android:id="@+id/btn_add_cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:onClick="addItem"
+        android:text="@string/add_cheese" />
+
+    <Button
+        android:id="@+id/btn_add_rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_cheese"
+        android:onClick="addItem"
+        android:text="@string/add_rice" />
+
+    <Button
+        android:id="@+id/btn_add_apples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_rice"
+        android:onClick="addItem"
+        android:text="@string/add_apples" />
+
+    <Button
+        android:id="@+id/btn_add_steak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_apples"
+        android:onClick="addItem"
+        android:text="@string/add_steak" />
+
+</RelativeLayout>

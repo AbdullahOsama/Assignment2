@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.gamer.assignment2.MainActivity">
+
+    <Button
+        android:id="@+id/btn_add_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/add_item"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_item_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_item"
+        android:layout_centerHorizontal="true"
+        android:hint="First Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="First Item" />
+
+    <TextView
+        android:id="@+id/tv_item_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_1"
+        android:layout_centerHorizontal="true"
+        android:hint="Second Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Second Item" />
+
+    <TextView
+        android:id="@+id/tv_item_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_2"
+        android:layout_centerHorizontal="true"
+        android:hint="Third Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Third Item" />
+
+    <TextView
+        android:id="@+id/tv_item_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_3"
+        android:layout_centerHorizontal="true"
+        android:hint="Fourth Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Fourth Item" />
+
+    <TextView
+        android:id="@+id/tv_item_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_4"
+        android:hint="Fifth Item"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Fifth Item" />
+
+    <TextView
+        android:id="@+id/tv_item_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_5"
+        android:layout_centerHorizontal="true"
+        android:hint="Sixth Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Sixth Item" />
+
+    <TextView
+        android:id="@+id/tv_item_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_6"
+        android:layout_centerHorizontal="true"
+        android:hint="Seventh Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Seventh Item" />
+
+    <TextView
+        android:id="@+id/tv_item_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_7"
+        android:layout_centerHorizontal="true"
+        android:hint="Eight Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Eight Item" />
+
+    <TextView
+        android:id="@+id/tv_item_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_8"
+        android:layout_centerHorizontal="true"
+        android:hint="Ninth Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Ninth Item" />
+
+    <TextView
+        android:id="@+id/tv_item_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_9"
+        android:layout_centerHorizontal="true"
+        android:hint="Tenth Item"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Tenth Item" />
+
+</RelativeLayout>
